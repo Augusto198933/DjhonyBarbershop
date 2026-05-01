@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #0d0d0d;
+  color: #fff;
+}
+
+/* HERO */
+.hero {
+  background: url('https://images.unsplash.com/photo-1585747860715-2ba37e788b70') no-repeat center;
+  background-size: cover;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay {
+  background: rgba(0,0,0,0.7);
+  padding: 40px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+.hero span {
+  color: gold;
+}
+
+.hero p {
+  margin: 15px 0;
+}
+
+.btn {
+  background: #25D366;
+  padding: 12px 25px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* SECTIONS */
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.sobre {
+  background: #111;
+}
+
+.servicos {
+  background: #0d0d0d;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.card {
+  background: #1a1a1a;
+  padding: 25px;
+  border-radius: 10px;
+  width: 200px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  background: #222;
+}
+
+/* CONTATO */
+.contato iframe {
+  width: 100%;
+  max-width: 500px;
+  height: 250px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 10px;
+}
+
+/* FOOTER */
+footer {
+  background: #000;
+  padding: 20px;
+  text-align: center;
+}
+
+/* BOTÃO WHATSAPP */
+.whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25D366;
+  padding: 15px;
+  border-radius: 50%;
+  font-size: 20px;
+  text-decoration: none;
+}
